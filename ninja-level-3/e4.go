@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func e4() {
 	bd := 1992
 	for {
 		if bd > 2020 {
