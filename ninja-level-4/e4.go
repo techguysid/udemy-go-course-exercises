@@ -5,7 +5,7 @@ import (
 )
 
 //In Go for slices you do not mention the size while declaring it but not for slice
-func e3() {
+func e4() {
 	var x = []int{1, 2, 4, 6, 8, 10, 12, 14, 16, 18} //Not mentioned the size here
 	fmt.Println(x)
 	fmt.Println(x[:5])  //Slicing the slice from 0 to index 5 .. index 5 not included
